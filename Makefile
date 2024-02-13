@@ -63,3 +63,15 @@ debug-server:
 	./gradlew :server:run
 clean-server:
 	./gradlew :server:clean
+
+
+# web build
+
+build-browser:
+	./gradlew composeApp:wasmJsBrowserDevelopmentWebpack
+
+debug-browser:
+	./gradlew composeApp:wasmJsBrowserDevelopmentRun
+
+production-browser:
+	./gradlew composeApp:wasmJsBrowserProductionRun

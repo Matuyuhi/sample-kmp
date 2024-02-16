@@ -64,15 +64,6 @@ debug-server:
 clean-server:
 	./gradlew :server:clean
 
-
-
-
-
-
-
-
-
-
 # web build
 
 build-browser:
